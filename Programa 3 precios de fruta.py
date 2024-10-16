@@ -3,11 +3,11 @@ print("SOSA LUIS OMAR 1217 3-W: MI PRACTICA DE DICCIONARIOS #3") #nombre del cre
 print() #se coloca para una linea en blanco 
 def obtener_precio_fruta():
     precios_frutas = {
-        'manzana': 2.5,
+        'papaya': 2.5,
         'platano': 1.8,
         'naranja': 3.0,     #definir las variables en el dccionario
-        'pera': 2.7,
-        'uvas': 4.0
+        'sandia': 2.7,
+        'fresa': 4.0
     }
 
     fruta = input("¿Qué fruta te gustaría comprar? ") #pide ingresar una fruta del diccionario
