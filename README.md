@@ -3,25 +3,27 @@
 
 PROGRAMA 1: DIVISAS
 
-print() #se colca para dejar un espacio al momento de ejecutar
-print("SOSA LUIS OMAR 1217 3-W: MI PRACTICA DE DICCIONARIOS") #creador del programa 
-print() #se colca para dejar un espacio al momento de ejecutar
-divisas = { "euro" : "€","dollar" : "$", "yen" : "¥"} #definir las palabras clave 
-print() #se colca para dejar un espacio al momento de ejecutar
+print() #se coloca para dejar un espacio
+print("SOSA LUIS OMAR 1217 3-W: MI PRÁCTICA DE DICCIONARIOS\n") #nombre del creador del codigo
+print() #se coloca para dejar un espacio
+divisas = { 
+    "euro": "€",
+    "dollar": "$",      #definindo las variables de de los euros     
+    "yen": "¥"
+} 
 
-divisa_usuario = input("Introcude una divisa (euro, dollar, yen): ").lower() #pide ingresar una divisa
-simbolo = divisas.get(divisa_usuario) #compara el valor ingresado 
-print() #se colca para dejar un espacio al momento de ejecutar
-if simbolo:
-    print(f"el simbolo de la divisa {divisa_usuario} es: {simbolo}") #que pasa si la condicion se cumple 
-    print() #se colca para dejar un espacio al momento de ejecutar
+divisa_usuario = input("Introduce una divisa (euro, dollar, yen): ") #pide al usuario que ingrese una divisa 
+
+simbolo = divisas.get(divisa_usuario) #clave para obtener el valor 
+
+if simbolo: #si el simbolo esxiste
+    print(f"El símbolo de la divisa '{divisa_usuario}' es: {simbolo}\n") #imprime en pantalla el simbolo de la divisa 
 else:
-    print(f"la divisa {divisa_usuario} esta en el diccionario.") #cuando la condicion se cumple mostrara ese mensaje -
-    print() #se colca para dejar un espacio al momento de ejecutar
-    
-![image](https://github.com/user-attachments/assets/35fd7181-60d0-4041-bd45-4a7cf8d26b87)
-![image](https://github.com/user-attachments/assets/05d67a01-df8d-482d-8645-40bcb02b8348)
+    print(f"La divisa '{divisa_usuario}'está en el diccionario.\n") #muestra en pantalla el resultado de las divisas 
+print() #se coloca para dejar un espacio
 
+![image](https://github.com/user-attachments/assets/f8a99fd3-60d1-4740-adb7-c22ca99c08ff)
+![image](https://github.com/user-attachments/assets/bed6a2f0-e691-476b-ad99-91036ef9e3be)
 
 PROGRAMA 2: 
 
@@ -60,11 +62,11 @@ print("SOSA LUIS OMAR 1217 3-W: MI PRACTICA DE DICCIONARIOS #3") #nombre del cre
 print() #se coloca para una linea en blanco 
 def obtener_precio_fruta():
     precios_frutas = {
-        'manzana': 2.5,
+        'papaya': 2.5,
         'platano': 1.8,
         'naranja': 3.0,     #definir las variables en el dccionario
-        'pera': 2.7,
-        'uvas': 4.0
+        'sandia': 2.7,
+        'fresa': 4.0
     }
 
     fruta = input("¿Qué fruta te gustaría comprar? ") #pide ingresar una fruta del diccionario
@@ -80,8 +82,7 @@ def obtener_precio_fruta():
 print() #se coloca para una linea en blanco 
 
 obtener_precio_fruta()
-print() #se coloca para una linea en blanco
+print() #se coloca para una linea en blanco 
 
-![image](https://github.com/user-attachments/assets/81fc5d55-3a5c-4fbf-ba89-248a4e8fdc23)
-![image](https://github.com/user-attachments/assets/c3daa01e-ac59-423e-98ab-f6015e35e71f)
-
+![image](https://github.com/user-attachments/assets/0e41da8d-ea51-4391-9364-d412f5141e31)
+![image](https://github.com/user-attachments/assets/6a3131a7-4268-4b35-b870-9bc574947d08)
